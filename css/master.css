@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+@theme{
+    --color-imcolor: #d41b22;
+ --font-agrave: "Agrave Pro", sans-serif;
+  --font-black: "Archivo Black", sans-serif;
+  --font-para: "Lato", sans-serif;
+}
+
+
+@utility bg-hero {
+    background-image: url('../images/hero.jpg');
+}
+ @layer utilities{
+    .row{
+        @apply w-full flex flex-wrap
+    }
+ }
+
+ 
